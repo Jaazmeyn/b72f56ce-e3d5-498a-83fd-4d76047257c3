@@ -1,0 +1,49 @@
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: var(--color-grey-light-1);
+    color: var(--color-grey-dark-1);
+    border-bottom: var(--line);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    max-width: 771px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 40px auto;
+    z-index:-1;
+    box-shadow: 1px 1px 5px 0.1px black ;
+    border-radius: 5px;
+  }
+
+  .tab-content {
+    padding: 20px;
+    background-color: var(--color-grey-light-1);
+    overflow: hidden;
+    width: 100%;
+
+    .shopimg {
+      overflow: hidden;
+      margin-top: -111px;
+      left: -20px;
+      margin-left: -70px;
+    }
+  }
+
+  .eventfoto-card-area { // layout is in layout scss
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
